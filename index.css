@@ -1,0 +1,106 @@
+@-webkit-keyframes slide-down {
+  0% {
+    max-height: 0px;
+    opacity: 0;
+  }
+  100% {
+    max-height: 480px;
+    opacity: 1;
+  }
+}
+@-moz-keyframes slide-down {
+  0% {
+    max-height: 0px;
+    opacity: 0;
+  }
+  100% {
+    max-height: 480px;
+    opacity: 1;
+  }
+}
+@-o-keyframes slide-down {
+  0% {
+    max-height: 0px;
+    opacity: 0;
+  }
+  100% {
+    max-height: 480px;
+    opacity: 1;
+  }
+}
+@keyframes slide-down {
+  0% {
+    max-height: 0px;
+    opacity: 0;
+  }
+  100% {
+    max-height: 480px;
+    opacity: 1;
+  }
+}
+.first-block-container {
+  margin-bottom: 3rem;
+}
+
+.first-block-content {
+  height: 300px;
+  background-color: lightgray;
+  -moz-animation-name: slide-down;
+  -moz-animation-timing-function: ease-out;
+  -moz-animation-duration: 5s;
+  -moz-animation-iteration-count: 1;
+  -moz-animation-fill-mode: forwards;
+
+  -o-animation-duration: 5s;
+  -o-animation-name: slide-down;
+  -o-animation-timing-function: ease-out;
+  -o-animation-iteration-count: 1;
+  -o-animation-fill-mode: forwards;
+
+  animation-duration: 5s;
+  animation-name: slide-down;
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  -webkit-animation-name: slide-down;
+  -webkit-animation-timing-function: ease-out;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+}
+
+.second-block-content {
+  height: 100px;
+  background-color: lightskyblue;
+
+  -moz-animation-name: slide-down;
+  -moz-animation-timing-function: ease-out;
+  -moz-animation-duration: 5s;
+  -moz-animation-iteration-count: 1;
+  -moz-animation-fill-mode: forwards;
+
+  -o-animation-duration: 5s;
+  -o-animation-name: slide-down;
+  -o-animation-timing-function: ease-out;
+  -o-animation-iteration-count: 1;
+  -o-animation-fill-mode: forwards;
+
+  animation-duration: 5s;
+  animation-name: slide-down;
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  -webkit-animation-name: slide-down;
+  -webkit-animation-timing-function: ease-out;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
